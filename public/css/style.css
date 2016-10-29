@@ -1,0 +1,17 @@
+
+.head{
+    font
+    float:center;
+}
+.rect{
+	background-color: steelblue;
+	margin-top: 5px;
+
+
+}
+.container{
+	width: 800px;
+	height: 500px;
+	/*background-color: gray;*/
+
+}
