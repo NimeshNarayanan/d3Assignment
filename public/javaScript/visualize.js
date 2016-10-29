@@ -4,12 +4,13 @@ var translate = function(x, y) {
     return `translate(${ x },${ y })`;
 };
 
+var color = d3.scaleOrdinal().domain([1,50,100]).range(['#862d2d','#d27979','#e6b3b3','#ac3939'])
 //generating random numbers......................
 
 var generate_random_number = function(data1) {
     var newData = [];
     for (i = 0; i < 10; i++)
-        newData.push(Math.floor((Math.random() * 100)));
+        newData.push(Math.floor((Math.random() * 100)+1));
     return newData;
 }
 
@@ -20,23 +21,19 @@ var initializeChart = function(data) {
 							.data(data,function (d) {return d;});
     var new_bar = bars.enter().append('div')
         .classed('rect', true)
-        .style('background-color', 'blue')
+        .style('background-color', color)
 				.text(function(d){return d;})
 				.style('text-align', 'right')
         .style('width', function(d) {
             return d * 10 + "px"
         })
-        .style('height', 30 + 'px')
-				.transition()
-				.duration(10000)
-				.ease(d3.easeLinear)
-				.style('background-color','brown')
+        .style('height', 30 + 'px');
 		bars.exit().remove();
 
 }
 
-var generateUniqueKey = function() {
-
+var generateUniqueKey = function(number) {
+	var key;
 }
 var loadChart = function(){
 	data = generate_random_number();
