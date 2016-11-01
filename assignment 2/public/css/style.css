@@ -1,0 +1,43 @@
+
+.head{
+    font
+    float:center;
+}
+.rect{
+	/*background-color: steelblue;*/
+	margin-top: 5px;
+
+
+}
+.container{
+	width: 1300px;
+	height: 800px;
+	/*background-color: gray;*/
+
+}
+.chart-container{
+  width: 90%;
+  height: 50%;
+  margin: 10px;
+  margin-left: 10%;
+}
+.button-container{
+  width: 90%;
+  height: 20px;
+  margin: 10px;
+  margin-left: 10%
+}
+.legend-container{
+  width: 90%;
+  height: 50px;
+  margin: 10px;
+  margin-left: 10%
+}
+.legend{
+  border-radius:20px;
+  text-align:center;
+  width:60px;
+  /*height: auto;*/
+  display:inline-block;
+  padding-left: 2px;
+}
