@@ -1,0 +1,7 @@
+.box{
+  display: inline-block;
+  vertical-align: top;
+  border: 1px solid;
+  margin: 4px;
+  padding:0px 10px;
+}
