@@ -1,0 +1,13 @@
+.head{
+  margin-left: 45%;
+  font-size: 40px;
+}
+
+.container{
+  width: 650;
+  height:700;
+}
+.path{
+    fill: none;
+    stroke: steelblue;
+}

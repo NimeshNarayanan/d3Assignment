@@ -1,0 +1,21 @@
+.head{
+  margin-left: 45%;
+  font-size: 40px;
+}
+
+.container{
+  width: 650;
+  height:110;
+  margin-left: 400px;
+  margin-top: 100px;
+}
+polygon{
+  stroke:green;
+}
+circle{
+  stroke:red;
+}
+.shapes{
+  fill: none;
+  stroke-width: 2;
+}
