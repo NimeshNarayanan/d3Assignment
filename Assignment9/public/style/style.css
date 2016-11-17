@@ -1,0 +1,24 @@
+.head{
+  margin-left: 45%;
+  font-size: 40px;
+}
+
+.container{
+  width: 600px;
+  height:auto;
+}
+.simple-line{
+    stroke:brown;
+    fill : none;
+    stroke-width:2px;
+}
+.sin-line{
+    stroke:steelblue;
+    fill : none;
+    stroke-width:2px;
+}
+.circle{
+  stroke-width:2px;
+  fill: white;
+  stroke: steelblue;
+}
