@@ -1,0 +1,25 @@
+.head{
+  margin-left: 45%;
+  font-size: 40px;
+}
+
+.container{
+  width: 600px;
+  height:auto;
+}
+svg{
+  margin-left: 50px;
+}
+.line{
+  stroke:steelblue;
+  stroke-width:3px;
+  fill: none;
+}
+.path{
+    fill : lightsteelblue;
+}
+.circle{
+  stroke-width:2px;
+  fill: white;
+  stroke: steelblue;
+}

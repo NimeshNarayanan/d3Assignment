@@ -1,0 +1,19 @@
+.head{
+  margin-left: 45%;
+  font-size: 40px;
+}
+
+.container{
+  width: 650;
+  height:700;
+}
+.path{
+    stroke: steelblue;
+    fill : none;
+    stroke-width:2px;
+}
+.circle{
+  stroke-width:2px;
+  fill: white;
+  stroke: steelblue;
+}
